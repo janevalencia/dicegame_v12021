@@ -1,0 +1,94 @@
+/* Global CSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #393e46;
+  color: #faf1d8;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  width: 80%;
+  padding: 2% 0;
+}
+
+.lg-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.md-text {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.sm-text {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.fas,
+.fab {
+  color: #94d0cc;
+}
+
+.btn {
+  background-color: #94d0cc;
+  color: #393e46;
+}
+
+.btn:hover {
+  background-color: #faf1d8;
+}
+
+.btn:disabled {
+  background-color: #faf1d8;
+  color: black;
+}
+
+/* Title Section */
+#title h1 {
+  display: inline-block;
+}
+
+#title .fa-container {
+  display: inline-block;
+  padding: 2%;
+}
+
+#title button {
+  display: block;
+  margin: 10px auto;
+  width: 125px;
+}
+
+/* For viewport up to 767px (tablet and below) */
+@media only screen and (max-width: 768px) {
+  #title h1 {
+    display: block;
+  }
+}
+
+/* Dashboard section */
+.dice {
+  width: 50%;
+}
+
+/* Footer Section */
+#author p {
+  margin: 0;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.fa-icon:hover {
+  color: #faf1d8;
+  text-decoration: none;
+}
